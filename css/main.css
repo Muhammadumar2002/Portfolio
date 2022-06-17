@@ -1,0 +1,269 @@
+/* GLOBAL */
+html{
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+
+*:focus{
+  outline: 3px dashed #FF7E1B;
+  outline-offset: 3px;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+  url('../fonts/Montserrat-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+  url('../fonts/Montserrat-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Joan';
+  src: url('../fonts/Joan-Regular.woff2') format('woff2'),
+  url('../fonts/Joan-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: 'Montserrat','Joan', sans-serif;
+  background-color:#FFF;
+  color:#000;
+}
+.main-content{
+  flex-grow: 1;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* CONTAINER */
+.container{
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SITE-HEADER START */
+.site-header {
+  background-color: rgba(1, 2, 2, 0.915);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container {
+  display: flex;
+}
+
+.header-img {
+  width:100px;
+  height: 100%;
+  margin-right: 30px;
+  border: 0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center top;
+  white-space: nowrap;
+}
+
+.content-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.name {
+  color: #ab225d;
+  font-family:'Montserrat';
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.jobs {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  font-family:'Montserrat';
+  font-weight: 500;
+  width: 100%;
+  font-size: 20px;
+  max-width: 450px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+  border: 0;
+  padding: 5px 5px;
+  border-radius: 5%;
+  background-color: #ab225d;
+  color: aliceblue;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color:aliceblue;
+  color:#ab225d;
+  transition: ease-in 0.2s;
+}
+
+.btn:not(:last-child){
+  margin-right: 10px;
+}
+
+/* SITE-HEADER END */
+
+/* SECTION START  */
+
+.project {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f0f0f0;
+}
+
+.project__name {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ab225d;
+}
+
+.project__list {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project__item {
+  padding-top: 10px;
+  background-color: rgba(1, 2, 2, 0.915);
+  width: 100%;
+  max-width: 340px;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  list-style: none;
+  text-align:center;
+}
+
+.project__item:not(:last-child){
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.project-img{
+  width: 290px;
+  height: 200px;
+  margin-bottom: 25px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.project__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.title{
+  color: #ab225d;
+  text-transform: uppercase;
+}
+
+.project__info{
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.extra-class{
+  margin-top: 20px;
+}
+
+.clr{
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+/* SECTION END  */
+
+/* FOOTER START */
+.site-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(1, 2, 2, 0.915);
+}
+
+.contact__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* FOOTER END */
