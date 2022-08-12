@@ -7,7 +7,7 @@
   --color-link:#506166;
   --black:#000000;
   --footer-border-color:#f8fbff;
-  --fonts:'Panton', 'Arial', sans-serif;
+  --fonts:'Oswald', 'Arial', sans-serif;
 }
 
 
@@ -41,19 +41,20 @@
 
 
 /* FONTS */
+
 @font-face {
-  font-family: 'Panton';
-  src: url('../font/Panton-Regular.woff2') format('woff2'),
-  url('../font/Panton-Regular.woff') format('woff');
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+      url('../fonts/Oswald-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Panton';
-  src: url('../font/Panton-Bold.woff2') format('woff2'),
-  url('../font/Panton-Regular.woff') format('woff');
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+      url('../fonts/Oswald-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -184,9 +185,10 @@ img {
 
 .site-header__text {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 43px;
   line-height: 28px;
   margin: 0;
+  padding-top: 20px;
 }
 
 .site-header__text-purple {
@@ -218,7 +220,6 @@ img {
   cursor: pointer;
   padding: 12px 34px;
   border-radius: 6px;
-  background-color: ;
   border: 2px solid transparent;
   transition: 0.2s ease;
   border: 2px solid #3F4E4F;
@@ -246,7 +247,7 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
-  padding-top: 80px;site-header__img
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
