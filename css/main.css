@@ -168,6 +168,7 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  object-position: top left;
   border-radius: 50%;
 }
 
@@ -245,7 +246,7 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
-  padding-top: 80px;
+  padding-top: 80px;site-header__img
   padding-bottom: 80px;
 }
 
