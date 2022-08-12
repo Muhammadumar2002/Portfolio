@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,191 +6,627 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class=" site-header__container container">
-      <img class="header-img" src="./img/mt-image3.jpg" alt="Author picture" width="100" height="100">
-      <div class="content-wrapper">
-        <span class="name">Muhammadumar Yunusov</span>
-        <p class="jobs">Frontend Dasturchi KIUF Internet va Axborot Texnologiyalari Fakulteti talabasi</p>
-      </div>
 
-      <!-- CTA  -->
-      <ul class=" CTa-List">
-        <a class="btn" href="https://github.com/Muhammadumar2002" target="_blank">Git Hub</a>
-        <a class="btn" href="https://t.me/Space_probe"target="_blank">Telegram</a>
+
+
+
+
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <div class="site-header__info">
+        <img class="site-header__facade" src="img/oboy.svg" alt="facade" width="750" height="450">
+        <img class="site-header__facade-right" src="img/oboy.svg" alt="facade" width="417" height="351">
+        <img class="site-header__img" src="img/mt-image3.jpg" alt="facade" width="200" height="200">
+        <h1 class="site-header__title">Muhammadumar Yunusov</h1>
+        <p class="site-header__text">Frond End Dasturchi <span class="site-header__text-purple">Mayoq</span><span class="site-header__text-orange">Hub</span> 2.0 o'quvchisi</p>
+      </div>
+      <ul class="site-header__list">
+        <li class="site-header__item">
+          <a href="https://github.com/Muhammadumar2002" class="site-header__link">
+            <span class="site-header__link-text">GitHub</span>
+            <img class="site-header__link-img" src="img/github1.svg" alt="GitHub logo" width="20" height="20">
+          </a>
+        </li>
+        <li class="site-header__item">
+          <a href="https://t.me/Space_probe" class="site-header__link">
+            <span class="site-header__link-text">Telegram</span>
+            <img class="site-header__link-img" src="img/telegram1.svg" alt="Telegram logo" width="20" height="20">
+          </a>
+        </li>
       </ul>
     </div>
   </header>
-  <h1 class="project__name">LOYIHALAR</h1>
-  <section class="project">
+
+
+
+
+
+
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
     <div class="container">
-      <!-- LIST  -->
-      <ul class="project__list">
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img/E-commerce.demo.png" alt="E-commerce-logo" width="400" height="400">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">E-commerce</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/E-commerce" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
+
+      <!-- MAIN-INFO -->
+      <section class="main-info">
+        <div class="main-info__wrapper">
+          <h2 class="main-info__title">Tuzilgan loyihalar</h2>
+          <ul class="main-info__list">
+
+
+
+            <!-- E-commerce -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/E-commerce.jpg"  alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">E-commerce</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Ecommerce - elektron tijorat uchun mo'ljallangan sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/E-commerce" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://ym-e-commerce.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- EasyBank -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/EasyBank.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">EasyBank</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Bank accountini boshqarish uchun mo'ljallangan bir sahifali sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/EasyBank" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://ym-easy-bank.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Skilled -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Skilled.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Skilled</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Bir qator zamonaviy kasblar va ko'nikmalar o'rgatishga qaratilgan zamonaviy kurslarni o'z ichiga olgan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Skilled" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://my-skilled.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Bookmark -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Bookmark.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Bookmark</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Sevimli veb-saytlaringizni tartibga solish uchun interfeys. Xatcho'plaringizni o'zingiz xohlagan tarzda tartibga solishga yordam beruvchi bepul web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Bookmarks" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://ym-bookmarks.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Shortly -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/shortly.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Shortly</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Havolalarni qisqartirib beruvchi, ishlatish uchun qulay web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Shortly" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://site-shortly.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Job Listings  -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Job Listings.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Job Listings</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Havolalarni qisqartirib beruvchi, ishlatish uchun qulay web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Jobs-listings" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://job-listings-maket.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Pricing Component  -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Pricing Component.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Pricing Component</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Oylik, yillik va boshqa tariflarni o'z ichiga olgan narxlash komponentlarini o'zida jamlagan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/pricing-component" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://pricing-my.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Countries  -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Countries.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Countries</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Dunyo davlatlari haqida ma'lumot beruvchi web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Countries" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://countries-my.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Loopstudios  -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Loopstudios.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Loopstudios</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">2011-yilda tashkil etilgan Loopstudios butun dunyodagi kompaniyalar uchun eng yaxshi jahon darajasidagi vertual reallik loyihalarini ishlab chiqaruvchi kompaniyaning web sayti.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Loopstudios" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://loopstudioimtihon.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- CoffeRoasters -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/CoffeRoasters.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">CoffeRoasters</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">1999-yil tashkil etilgan Coffeeroasters tashkilotining o'zining mahsulotlarini reklama qilish va sotishga mo'ljallangan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/CoffeeRoaster" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://my-coffee-roaster.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+            <!-- Sign Up -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Sign Up.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Sign Up</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Turli xil kurslarga online yozilishga mo'ljallangan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Intro-form" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://my-intro-form.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Apple Watch -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Apple Watch.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Apple Watch</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Apple kompaniyasinig aqlli soatlar uchun mo'ljallangan web sayti.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/apple-watch" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://aplle-watch-my.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Articles -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Articles.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Articles</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Sayohat haqidagi eng qiziq bloglarni kuzatib borishga va ular bilan tanishishga yordam beruvchi web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/001-test" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://001-m-test.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Namanganliklar24 -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Namanganliklar24.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Namanganliklar24</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Yurtimiz va dunyo sodir bo'layotgan tueli hil yo'nalishlar bo'yicha yangiliklarni o'zida jamlagan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/n-24" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://muhammadumar-n-24.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Ansormed -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Ansormed.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Ansormed</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Tabiiy davolash usullari yordamida kasalliklarni davolovchi hususiy shifoxona web sayti.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Ansor-med" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://muhammadumar-ansormed.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Akademnashr -->
+            <li class="main-info__item">
+              <!-- MAKETNING-RASMI -->
+              <img class="main-info__img" src="img/Akademnashr.jpg" alt="Photos" width="260" height="160">
+              <div class="main-info__data">
+                <!-- MAKETNING-NOMI -->
+                <h2 class="main-info__heading">Akademnashr</h2>
+                <!-- MAKET-HAQIDA-MA'LUMOT -->
+                <p class="main-info__text">Trenddagi eng ommabop, turli auditoriyalarga mo'ljallangan har xil janrdagi kitoblarni topishga va ularni sodda usulda buyurtma qilishga mo'ljallangan web sayt.</p>
+                <div class="main-info__links">
+                  <!-- MAKETNING-GITHUB-LINKI -->
+                  <a href="https://github.com/Muhammadumar2002/Akademnashr" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">GitHub</span>
+                      <!-- MAKETNING-GITHUB-RASMI -->
+                    <img class="main-info__links-img" src="img/github1.svg" alt="GitHub logo" width="18" height="18">
+                  </a>
+                    <!-- MAKETNING-NETLIFY-LINKI -->
+                  <a href="https://akademnashr-my.netlify.app/" class="main-info__links-wrapper">
+                    <span class="main-info__links-text">Netlify</span>
+                      <!-- MAKETNING-NETLIFY-RASMI -->
+                    <img class="main-info__links-img" src="img/netlify.svg" alt="Netlify logo" width="18" height="18">
+                  </a>
+                </div>
+                <div class="main-links-info-wrapper">
+                  <a href="#" class="main-info__links-info">
+                    <span class="main-info__info-text">Batafsil</span>
+                    <!-- STRELKA-RASMI -->
+                    <img class="main-info__links-img" src="img/arrow.svg" alt="Arrow" width="18" height="18">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__container container">
+      <h2 class="site-footer__title">M.Yunusov</h2>
+      <ul class="site-footer__list">
+        <li class="site-footer__item">
+          <a class="site-footer__link" href="tel:+998916518988">
+            <img class="site-footer__socials" src="img/phone.svg" alt="icon" width="25" height="25">
+          </a>
         </li>
-        <!-- ITEM END -->
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img//EasyBank.demo.png" alt="E-commerce-logo" width="400" height="400">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">EasyBank</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/EasyBank" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://ym-easy-bank.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
+        <li class="site-footer__item">
+          <a class="site-footer__link" href="#">
+            <img class="site-footer__socials" src="img/facebook.svg" alt="icon" width="25" height="25">
+          </a>
         </li>
-        <!-- ITEM END -->
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img/Bookmark.png" alt="E-commerce-logo" width="400" height="400">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">BookMark</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Bookmarks" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://ym-bookmarks.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
+        <li class="site-footer__item">
+          <a class="site-footer__link" href="https://t.me/Space_probe">
+            <img class="site-footer__socials" src="img/telegram.svg" alt="icon" width="25" height="25">
+          </a>
         </li>
-        <!-- ITEM END -->
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img/skilled.demo.png" alt="E-commerce-logo" width="400" height="400">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">skilled</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Skilled" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://my-skilled.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
+        <li class="site-footer__item">
+          <a class="site-footer__link" href="#">
+            <img class="site-footer__socials" src="img/gmail.svg" alt="icon" width="25" height="25">
+          </a>
         </li>
-        <!-- ITEM END -->
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img/Shorter.demo.png" alt="E-commerce-logo" width="400" height="400">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">SHortly</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="hhttps://github.com/Muhammadumar2002/Jobs-listings" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://job-listings-maket.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
+        <li class="site-footer__item">
+          <a class="site-footer__link" href="#">
+            <img class="site-footer__socials" src="img/instagram.svg" alt="icon" width="25" height="25">
+          </a>
         </li>
-        <!-- ITEM END -->
-        <!-- ITEM START -->
-        <li class="project__item">
-          <img class="project-img" src="./img/Job.listings.demo.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Job listings</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Jobs-listings" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://job-listings-maket.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/pricing.demo.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">PRICING</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/pricing-component" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/country.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Country</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Countries" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://countries-my.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/loopstudios.demo.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">LOOPstudios</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Loopstudios" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://loopstudioimtihon.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/Coffee.roaster.demo.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Coffee roaster</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/CoffeeRoaster" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://my-coffee-roaster.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/intro.png" alt="intro form" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Intro-form</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Intro-form" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://my-intro-form.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/Apple-watch.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Apple watch</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/apple-watch" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://aplle-watch-my.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/Articles.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Articles</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/001-test" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://001-m-test.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item">
-          <img class="project-img" src="./img/Ansor.demp.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">ANsormed</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.06.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Ansor-med" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://muhammadumar-ansormed.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <li class="project__item  clr">
-          <img class="project-img" src="./img/Bosh sahifa - Akademnashr promo sayt.png" alt="E-commerce-logo" width="290" height="200">
-          <h2 class="project__heading">Loyiha nomi <br> <span class="title">Akademnashr</span></h2>
-          <dt class="project__info">Loyiha tuzilgan sana: <span class="title" >14.02.22</spantitle></dt>
-          <a class="btn" href="https://github.com/Muhammadumar2002/Akademnashr" target="_blank">GIT HUB</a>
-          <a class="btn" href="https://ym-e-commerce.netlify.app/" target="_blank">Sarflangan vaqt</a>
-          <a class="btn" href="https://muhammadumar.netlify.app/" target="_blank">Netlify</a>
-          <a class="btn extra-class" href="https://ym-e-commerce.netlify.app/" target="_blank">Batafsil</a>
-        </li>
-        <!-- ITEM END -->
       </ul>
     </div>
-  </section>
-
-  <!-- FOOTER -->
-    <footer class="site-footer footer">
-      <div class="footer__container container">
-              <ul class="contact-list">
-                  <li class="contact-item">
-                    <a class="btn fo" href="Email:Muhammadumaryunusov86@gmail.com">Gmail</a>
-                    <a class="btn" href="tel:+998916518988" target="_blank">Telefon</a>
-                  </li>
-              </ul>
-      </div>
   </footer>
 </body>
 </html>
